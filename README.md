@@ -10,15 +10,21 @@ The primary objective of this project is to create an interactive Power BI dashb
 ### First Dashoard
 
 **KPI Cards**: Displays critical metrics such as total revenue, average order value, total pizzas sold, total orders, and average pizzas per order.
+
 **Trend Charts**: Visualizes daily and monthly trends in total orders.
+
 **Donut Charts**: Shows sales percentages by pizza category and size.
+
 **Funnel Chart**: Illustrates total pizzas sold by category.
+
 **Filters**: Provides filters by pizza category and date range, with interactive elements for in-depth data analysis.
+
 **Insights**: Includes key observations and annotations to highlight important data trends and patterns.
 
 ### Second Dashboard
 
 **Top/Bottom Performers**: Identifies the top 5 and bottom 5 pizzas by revenue, quantity, and total orders.
+
 **Performance Analysis**: Analyzes the best and worst-performing pizzas to support strategic business decisions.
 
 
@@ -32,23 +38,23 @@ Top and Bottom Sellers: Identify the best and worst-performing pizzas based on r
 
 ## Formulas Used
 
-Total Revenue = SUM(Sales[Revenue])
+**Total Revenue** = SUM(Sales[Revenue])
 
-Average Order Value = AVERAGE(Sales[OrderValue])
+**Average Order Value** = AVERAGE(Sales[OrderValue])
 
-Total Pizzas Sold = SUM(Sales[PizzasSold])
+**Total Pizzas Sold** = SUM(Sales[PizzasSold])
 
-Total Orders = COUNT(Sales[OrderID])
+**Total Orders** = COUNT(Sales[OrderID])
 
-Average Pizzas per Order = DIVIDE([Total Pizzas Sold], [Total Orders])
+**Average Pizzas per Order** = DIVIDE([Total Pizzas Sold], [Total Orders])
 
-Sales Percentage by Category = DIVIDE(SUM(Sales[Revenue]), CALCULATE(SUM(Sales[Revenue]), ALL(Sales[Category])))
+**Sales Percentage by Category** = DIVIDE(SUM(Sales[Revenue]), CALCULATE(SUM(Sales[Revenue]), ALL(Sales[Category])))
 
-Sales Percentage by Size = DIVIDE(SUM(Sales[Revenue]), CALCULATE(SUM(Sales[Revenue]), ALL(Sales[Size])))
+**Sales Percentage by Size** = DIVIDE(SUM(Sales[Revenue]), CALCULATE(SUM(Sales[Revenue]), ALL(Sales[Size])))
 
-Top 5 Pizzas by Revenue = TOPN(5, SUMMARIZE(Sales, Sales[PizzaName], "Revenue", SUM(Sales[Revenue])), [Revenue], DESC)
+**Top 5 Pizzas by Revenue** = TOPN(5, SUMMARIZE(Sales, Sales[PizzaName], "Revenue", SUM(Sales[Revenue])), [Revenue], DESC)
 
-Bottom 5 Pizzas by Revenue = TOPN(5, SUMMARIZE(Sales, Sales[PizzaName], "Revenue", SUM(Sales[Revenue])), [Revenue], ASC)
+**Bottom 5 Pizzas by Revenue** = TOPN(5, SUMMARIZE(Sales, Sales[PizzaName], "Revenue", SUM(Sales[Revenue])), [Revenue], ASC)
 
 ## Conclusion
 This project highlights the use of Power BI for effective data visualization and analysis. The interactive dashboard provides a detailed understanding of sales trends, product performance, and revenue generation, supporting data-driven business decisions.

@@ -9,23 +9,23 @@ The primary objective of this project is to create an interactive Power BI dashb
 
 ### First Dashoard
 
-**KPI Cards**: Displays critical metrics such as total revenue, average order value, total pizzas sold, total orders, and average pizzas per order.
+**1. KPI Cards**: Displays critical metrics such as total revenue, average order value, total pizzas sold, total orders, and average pizzas per order.
 
-**Trend Charts**: Visualizes daily and monthly trends in total orders.
+**2. Trend Charts**: Visualizes daily and monthly trends in total orders.
 
-**Donut Charts**: Shows sales percentages by pizza category and size.
+**3. Donut Charts**: Shows sales percentages by pizza category and size.
 
-**Funnel Chart**: Illustrates total pizzas sold by category.
+**4. Funnel Chart**: Illustrates total pizzas sold by category.
 
-**Filters**: Provides filters by pizza category and date range, with interactive elements for in-depth data analysis.
+**5. Filters**: Provides filters by pizza category and date range, with interactive elements for in-depth data analysis.
 
-**Insights**: Includes key observations and annotations to highlight important data trends and patterns.
+**6. Insights**: Includes key observations and annotations to highlight important data trends and patterns.
 
 ### Second Dashboard
 
-**Top/Bottom Performers**: Identifies the top 5 and bottom 5 pizzas by revenue, quantity, and total orders.
+**1. Top/Bottom Performers**: Identifies the top 5 and bottom 5 pizzas by revenue, quantity, and total orders.
 
-**Performance Analysis**: Analyzes the best and worst-performing pizzas to support strategic business decisions.
+**2. Performance Analysis**: Analyzes the best and worst-performing pizzas to support strategic business decisions.
 
 
 ## Insights

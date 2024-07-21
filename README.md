@@ -40,10 +40,13 @@ The primary objective of this project is to create an interactive Power BI dashb
 ## Insights
 The dashboard enables users to gain several key insights:
 
-Sales Performance: Track overall sales performance and understand daily and monthly trends in order volumes and revenue.
-Product Performance: Evaluate which pizza categories and sizes contribute most to total sales.
-Revenue Distribution: Analyze revenue distribution across different pizza types and sizes.
-Top and Bottom Sellers: Identify the best and worst-performing pizzas based on revenue, order quantity, and sales.
+**Sales Performance**: Track overall sales performance and understand daily and monthly trends in order volumes and revenue.
+
+**Product Performance**: Evaluate which pizza categories and sizes contribute most to total sales.
+
+**Revenue Distribution**: Analyze revenue distribution across different pizza types and sizes.
+
+**Top and Bottom Sellers**: Identify the best and worst-performing pizzas based on revenue, order quantity, and sales.
 
 ## Formulas Used
 
